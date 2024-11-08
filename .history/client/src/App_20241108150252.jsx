@@ -4,6 +4,7 @@ import About from "./pages/About";
 import ContactUs from "./pages/ContactUs";
 import Dashboard from "./pages/Dashboard";
 import Disclaimer from "./pages/Disclaimer";
+import Linux from "./pages/Linux";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
@@ -18,7 +19,8 @@ export default function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/linux" element={<Linux />} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="sign-in" element={<SignIn />} />
         <Route path="sign-up" element={<SignUp />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />

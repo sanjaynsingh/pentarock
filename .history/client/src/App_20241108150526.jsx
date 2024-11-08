@@ -18,7 +18,7 @@ export default function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="sign-in" element={<SignIn />} />
         <Route path="sign-up" element={<SignUp />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
